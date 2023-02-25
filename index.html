@@ -17,86 +17,88 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="row container-fluid text-white">
-      <div class="col-md-3"></div>
-      <div class="col-md-6 text-center">
-        <br />
-        <form onsubmit="return false;">
-          <img src="logo/logo.png" width="210px" alt="" />
+    <div class="container-fluid">
+      <div class="row text-white">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 mx-auto text-center">
           <br />
-          <label for="folder1Input" class="form-label">Folder 1:</label>
-          <input
-            class="form-control"
-            type="file"
-            id="folder1Input"
-            accept="image/png, image/gif, image/jpeg"
-            multiple
-          />
-          <br />
-          <label for="folder2Input">Folder 2:</label>
-          <input
-            class="form-control"
-            type="file"
-            id="folder2Input"
-            accept=".image/png, image/gif, image/jpeg"
-            multiple
-          />
-          <br />
-          <label for="folder3Input">Folder 3:</label>
-          <input
-            class="form-control"
-            type="file"
-            id="folder3Input"
-            accept="image/png, image/gif, image/jpeg"
-            multiple
-          />
-          <br />
-          <label for="folder4Input">Folder 4:</label>
-          <input
-            class="form-control"
-            type="file"
-            id="folder4Input"
-            accept="image/png, image/gif, image/jpeg"
-            multiple
-          />
-          <br />
-          <label for="folder5Input">Folder 5:</label>
-          <input
-            class="form-control"
-            type="file"
-            id="folder5Input"
-            accept="image/png, image/gif, image/jpeg"
-            multiple
-          />
-          <br />
-          <label class="form-label" for="startNumber">Starting Number:</label>
-          <input
-            class="form-control"
-            type="number"
-            id="startNumber"
-            min="0"
-            value="0"
-          />
+          <form onsubmit="return false;">
+            <img src="logo/logo.png" width="210px" alt="" />
+            <br />
+            <label for="folder1Input" class="form-label">Folder 1:</label>
+            <input
+              class="form-control"
+              type="file"
+              id="folder1Input"
+              accept="image/png, image/gif, image/jpeg"
+              multiple
+            />
+            <br />
+            <label for="folder2Input">Folder 2:</label>
+            <input
+              class="form-control"
+              type="file"
+              id="folder2Input"
+              accept=".image/png, image/gif, image/jpeg"
+              multiple
+            />
+            <br />
+            <label for="folder3Input">Folder 3:</label>
+            <input
+              class="form-control"
+              type="file"
+              id="folder3Input"
+              accept="image/png, image/gif, image/jpeg"
+              multiple
+            />
+            <br />
+            <label for="folder4Input">Folder 4:</label>
+            <input
+              class="form-control"
+              type="file"
+              id="folder4Input"
+              accept="image/png, image/gif, image/jpeg"
+              multiple
+            />
+            <br />
+            <label for="folder5Input">Folder 5:</label>
+            <input
+              class="form-control"
+              type="file"
+              id="folder5Input"
+              accept="image/png, image/gif, image/jpeg"
+              multiple
+            />
+            <br />
+            <label class="form-label" for="startNumber">Starting Number:</label>
+            <input
+              class="form-control"
+              type="number"
+              id="startNumber"
+              min="0"
+              value="0"
+            />
 
-          <br />
-          <button
-            type="button"
-            class="btn btn-danger"
-            onclick="renameAndDownload()"
-          >
-            Rename Files and Download as ZIP
-          </button>
-          <button
-            type="reset"
-            class="btn btn-danger"
-            type="button"
-            id="resetButton"
-          >
-            Reset
-          </button>
-        </form>
+            <br />
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="renameAndDownload()"
+            >
+              Rename Files and Download as ZIP
+            </button>
+            <button
+              type="reset"
+              class="btn btn-danger"
+              type="button"
+              id="resetButton"
+            >
+              Reset
+            </button>
+          </form>
+        </div>
+        <div class="col-sm-3"></div>
       </div>
-      <div class="col-md-3"></div>
     </div>
 
     <script>
