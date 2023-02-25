@@ -1,2 +1,2 @@
 # bulk-file-renamer
-Combine files from different paths, rename sequentially starting at any number. Upload from multiple folders, download as a zip. Simple file management.
+This web app allows you to easily combine files from multiple directories and rename them in a sequential manner starting from any number you choose. With this app, you can upload files from different folders and the app will arrange them in the order they were uploaded. Once uploaded, you can choose a starting number for the renaming process, and the app will rename all the files in a sequence, maintaining their original file types. The renamed files can then be downloaded as a zip file, making it easy to organize and share multiple files at once.
